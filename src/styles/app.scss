@@ -1,6 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: red;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(54, 54, 54);
+}
+
+@import "./song";
+@import "./player";
